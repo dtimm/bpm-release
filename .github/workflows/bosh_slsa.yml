@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       package-name:
-        description: "The name of the package to generate a SBoM for"
+        description: "BOSH package name to generate vendor attestation for."
         required: true
         type: string
 
